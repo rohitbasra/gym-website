@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/scripts.js"></script>
+</head>
+
+<body id="contact">
+    <div class="container">
+        <header class="header">
+
+            <a class="link-title" href="/">Gold's Gym...</a>
+
+        </header>
+
+        <nav class="menu">
+
+            <a href="index.html">Home</a> &nbsp; &nbsp; &nbsp;
+            <a href="about.html">About us</a> &nbsp; &nbsp; &nbsp;
+            <a href="contact.html">Contact</a>
+
+        </nav>
+
+        <aside>
+            <h1>GET IN TOUCH WITH US</h1>
+            
+        </aside>
+
+        <article class="main">
+
+            <h1 class="page-heading">Contact</h1>
+
+            <div id="form">
+
+                <form method="post" action="process.php">
+                    <p>
+                        <label for="name">Name:</label>
+                        <input type="text" name="Name" placeholder="Enter your Name" required>
+                    </p>
+
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" name="Email" placeholder="Enter your Email" required>
+                    </p>
+
+                    <p>
+                        <label for="subject">Subject:</label>
+                        <input type="text" name="Subject" placeholder="Enter your Subject" required>
+                    </p>
+
+                    <p>
+                        <label for="message">Message:</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your Message..." required>
+                    </textarea>
+                    </p>
+
+                    <p>
+                        <input id="submit" type="submit" name="submit" value="Send Response">
+                    </p>
+
+
+
+                </form>
+            </div>
+
+
+
+        </article>
+
+        <footer>
+            &copy; 2024 Gold's Gym Website &nbsp;<span class="seperator">|</span> Design by <a
+                href="http://www.google.com">Rohit Basra</a>
+        </footer>
+    </div>
+</body>
+
+</html>

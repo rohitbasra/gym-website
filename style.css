@@ -1,0 +1,191 @@
+
+body{
+    background: #a8dadc;
+    margin: 0;
+}
+
+.link-title{
+    text-align: center;
+    text-decoration: none;
+    font-size: 36px;
+    font-weight: bold;
+    color: #3b7687;
+    text-shadow: -3px 0px #075e7860;
+}
+
+.page-heading{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container{
+    width: 780px;
+    margin: 0 auto;
+    background: #caf0f8;
+    box-shadow: 0px 9px 13px 5px;
+}
+
+.header{
+    padding: 45px 0 20px 40px;
+    /* margin: 0 auto; */
+    text-align: center;
+}
+
+.menu{
+    padding: 6px 0 6px 40px;
+    background: #48cae4;
+    text-align: center;
+}
+
+.menu a{
+    color: #3b7687;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Arial Narrow", "Myriad Pro";
+}
+
+.menu a:hover{
+    color: #ecf2f3;
+}
+
+aside{
+    float: left;
+    width: 120px;
+    margin: 30px 0 0 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin: 0;
+    /* color: #005f73; */
+    font-size: 24px;
+    font-family: "Arial Narrow", "Myriad Pro";
+    font-weight: 700;
+    color: #3b7687;
+    text-shadow: -2px 0px #075e7860;
+    
+}
+
+h2{
+    color: #3b7687;
+    font-size: 15px;
+    margin: 10px 0 5px 0;
+    text-align: start;
+    text-decoration: underline;
+}
+
+h2:hover{
+    color: #c1121f;
+}
+
+#side-images1{
+    width: 100%;
+    float: left;
+    margin-top: 130px;
+    
+}
+#side-images2{
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    
+}
+
+.main{
+    margin: 0 0 0 180px;
+    padding: 35px 40px 30px 0;
+    color: #444444;
+    font-family: "Georgia";
+    font-size: 13px;
+    line-height: 18px;
+    text-align: justify;
+
+}
+
+footer{
+    padding: 6px 40px 6px 40px;
+    background: #669bbc;
+    font-size: 12px;
+    color: #fdf0d5;
+    font-family: "Lucida Sans Unicode";
+    text-align: center;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: #fdf0d5;
+
+}
+
+.seperator{
+    color: #ffffff;
+    font-size: 11px;
+}
+
+#home-image img{
+    width: 100%;
+}
+
+/************* About Page Styling *********/
+
+#about-page #home-image img{
+    width: 70%;
+    float: left;                 /* Floats are not used with margins */
+    margin-bottom: 20px;
+}
+
+#about-page #profile-info{
+    float: right;
+    width: 20%;
+    margin: 5px;
+}
+
+#about-page .description{
+    clear: both;
+}
+
+#logo{
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+
+/********************** Contact Page Styling ***********************/
+#contact aside h1{
+    color: #ef233c;
+    margin-top: 180px;
+}
+
+#contact #form{
+    width: 500px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    box-shadow: 0px 9px 13px 5px;  /* box-shadow: offset-x , offset-y , blur-radius, density */
+    border-radius: 5px;
+}
+
+#contact #form input{
+    width: 100%;
+    border-radius: 5px;
+    background: #d6d6d6;
+    height: 20px;
+}
+
+#contact #form #message{
+    width: 100%;
+    border-radius: 5px;
+    background: #d6d6d6;
+}
+
+#contact #form #submit{
+    height: 30px;
+    background: rgb(59, 118, 135);
+    color: #f6f0f0;
+}
+
